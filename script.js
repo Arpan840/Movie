@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const movieData = async (apiKey, movieTitle) => {
     try {
       let data = await fetch(
-        " http://www.omdbapi.com/?i=tt3896198&apikey=3e7caed7"
+        " https://www.omdbapi.com/?i=tt3896198&apikey=3e7caed7"
       );
 
       let movieDetails = await data.json();
